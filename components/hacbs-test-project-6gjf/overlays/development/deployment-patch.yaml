@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-6gjf
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rycole-appstudio/integration1-mipg-tenant/integ-app-rnss/hacbs-test-project-6gjf@sha256:fa2863e4320b7793bfb56aff13133a8af49d0cc081abf58d8c82294dc5eceb7c
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
